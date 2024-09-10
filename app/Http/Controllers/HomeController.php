@@ -19,6 +19,12 @@ use Illuminate\Support\Facades\Redirect;
 class HomeController extends Controller
 {
 
+    public function home(Request $request)
+    {
+
+        return view('frontend.pages.home');
+    }
+
     public function dashboard(Request $request)
     {
 
